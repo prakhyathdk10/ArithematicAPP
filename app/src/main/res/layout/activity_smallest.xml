@@ -1,0 +1,59 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00aabb"
+    android:gravity="center"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 1:"
+        android:textSize="30px"
+        android:textColor="#00aabb"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the first number"
+        android:textSize="30px"
+        android:textColor="#0B0B0B"
+        android:id="@+id/num1"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 2:"
+        android:textSize="30px"
+        android:textColor="#00aabb"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the second number"
+        android:textSize="30px"
+        android:textColor="#050505"
+        android:id="@+id/num2"
+        android:inputType="number"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smallest"
+        android:textColor="#00aabb"
+        android:textSize="20px"
+        android:id="@+id/small"
+        android:layout_margin="25px"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Menu"
+        android:textColor="#00aabb"
+        android:textSize="20px"
+        android:id="@+id/b2btn"
+        android:layout_margin="25px"
+        />
+
+</LinearLayout>

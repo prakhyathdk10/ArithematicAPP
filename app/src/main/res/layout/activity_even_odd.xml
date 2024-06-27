@@ -1,0 +1,43 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00aabb"
+    android:gravity="center"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number:"
+        android:textSize="30px"
+        android:textColor="#00aabb"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the number"
+        android:textSize="30px"
+        android:textColor="#0B0B0B"
+        android:id="@+id/num"
+        android:inputType="number"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:textColor="#00aabb"
+        android:textSize="20px"
+        android:id="@+id/evodd"
+        android:layout_margin="25px"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Menu"
+        android:textColor="#00aabb"
+        android:textSize="20px"
+        android:id="@+id/b2btn"
+        android:layout_margin="25px"
+        />
+
+</LinearLayout>
